@@ -1,15 +1,27 @@
-
+Nama benturan sudah diperbaiki; saya ulangi build dan cek endpoint login demo agar alurnya benar-benar bisa dipakai.
 Action: execute_bash({"command":"yarn build","cwd":"/app/frontend","timeout":180})
 Observation: yarn run v1.22.22
 $ craco build
 Creating an optimized production build...
-Failed to compile.
+Compiled successfully.
 
-[eslint] 
-src/App.js
-Syntax error: Identifier 'Users' has already been declared. (19:9) (19:9)
+File sizes after gzip:
 
+  90.76 kB  build/static/js/main.4fa9383c.js
+  11.92 kB  build/static/css/main.e7ad8661.css
 
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
-[stderr] error Command failed with exit code 1.
-Exit code: 1
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  yarn global add serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+Done in 89.79s.
+Exit code: 0
