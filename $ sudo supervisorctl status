@@ -1,0 +1,9 @@
+
+Action: execute_bash({"command":"sudo supervisorctl status","cwd":"/app","timeout":120})
+Observation: backend                          RUNNING   pid 275, uptime 0:10:09
+code-server                      RUNNING   pid 276, uptime 0:10:09
+frontend                         RUNNING   pid 277, uptime 0:10:09
+mongodb                          RUNNING   pid 278, uptime 0:10:08
+nginx-code-proxy                 RUNNING   pid 274, uptime 0:10:09
+webhook-crond                    RUNNING   pid 636, uptime 0:09:48
+Exit code: 0
